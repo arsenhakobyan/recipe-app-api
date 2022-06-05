@@ -1,8 +1,6 @@
 """
 Serializers for the user APi View.
 """
-from urllib.parse import non_hierarchical
-from xml.sax.xmlreader import AttributesImpl
 from django.contrib.auth import (
     get_user_model,
     authenticate,
